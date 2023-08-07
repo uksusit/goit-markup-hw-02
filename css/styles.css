@@ -1,7 +1,42 @@
 :root {
     --main-text-color:#212121;
-    --active-text-color:#FFFFFF;
-    --current-text-color:#2196F3;
-    --active-bg-color:#2196F3;
+    --gray-color:#757575;
+    --white-color:#FFFFFF;
+    --blue-color:#2196F3;
 }
 
+body {
+    font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+}
+nav > .logo {
+    color: var(--blue-color);
+    font-family: Raleway;
+}
+.btn {
+    color: var(--main-text-color);
+    background-color: var(--white-color);
+    border-radius: 4px;
+        /* width: 216px;
+        height: 50px;
+        flex-shrink: 0; */
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 187.5% */
+        letter-spacing: 0.96px;
+}
+.btn.prm {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+.btn.sec{
+    color: var(--blue-color);
+    background-color: var(--white-color);
+}
+.btn.tel {
+    color: var(--gray-color);
+}
