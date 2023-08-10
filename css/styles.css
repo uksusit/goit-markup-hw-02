@@ -35,7 +35,7 @@ nav  span {
 /* buttons */
 .btn {
     color: var(--gray-color);
-    background-color: var(--white-color);
+    /* background-color: var(--white-color); */
     border-radius: 4px;
         font-size: 16px;
         font-weight: 700;
@@ -63,10 +63,12 @@ nav  span {
 }
 /* menu filter */
 .btn.filter {
+    color: var(--main-text-color);
+    background: var(--btn-bg-color);
     border-radius: 4px;
-    background: var(--btn-bg-color)
+    border: none;
 }
-.btn.filter a:hover {
+.btn.filter:hover {
     color: var(--white-color);
     background-color: var(--blue-color);
 }
