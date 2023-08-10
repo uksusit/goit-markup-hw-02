@@ -4,6 +4,8 @@
     --blue-color:#2196F3;
     --white-color:#FFFFFF;
     --btn-bg-color:#F5F4FA;
+    --black-color: #000000;
+    --footer-bg-color: #2F303A;
 }
 /* default preset */
 body {
@@ -18,7 +20,7 @@ a {
     color: var(--main-text-color);
 }
 /* logo */
-nav > .logo {
+.logo {
     color: var(--blue-color);
     font-family: Raleway;
     font-size: 26px;
@@ -28,8 +30,8 @@ nav > .logo {
     line-height: normal;
     letter-spacing: 0.78px; */
 }
-nav  span {
-    color: #000;
+.logo span {
+    color: var(--black-color);
 }
 
 /* buttons */
@@ -62,6 +64,10 @@ nav  span {
     border-style: solid; */
 }
 /* menu filter */
+.menu-filter li{
+    display: inline-block;
+   align-items:  center;
+}
 .btn.filter {
     color: var(--main-text-color);
     background: var(--btn-bg-color);
@@ -92,7 +98,7 @@ nav  span {
     font-weight: 700;
     font-size: 14px;
     color: var(--main-text-color);
-    
+    text-transform: uppercase;
 }
 .features p {
     color: var(--gray-color);
@@ -106,7 +112,7 @@ h2 {
         /*         letter-spacing: 1.08px; */
 }
 
-
+/* team */
 .team p {
     color: var(--gray-color);
         font-size: 16px;
@@ -125,8 +131,21 @@ h2 {
         line-height: normal;
         letter-spacing: 0.48px; */
 }
-
-
+/* address */
+/* footer { background-color: var(--footer-bg-color);}
+address p {
+    color: var(--white-color);
+    background-color: var(--footer-bg-color);
+} */
+address ul{
+    color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
 
 /* hidden */
 .visually-hidden {
