@@ -39,7 +39,10 @@ a {
 .logo span {
     color: var(--black-color);
 }
-
+/* logo-span footer */
+footer .logo span {
+    color: var(--white-color);
+}
 /* buttons */
 .btn {
     color: var(--gray-color);
