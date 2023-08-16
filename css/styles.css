@@ -126,13 +126,13 @@ header li {display: inline-block;}
     letter-spacing: 1.08px;
 }
 .type {
-    color: var(--gray-color);
-/* font-family: Roboto;
-font-style: normal; */
+color: var(--gray-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 187.5% ;
 letter-spacing: 0.48px;
+/* font-family: Roboto;
+font-style: normal; */
 }
    
 /* hero */
@@ -140,21 +140,20 @@ letter-spacing: 0.48px;
     width: 1600px;
         height: 600px;
         flex-shrink: 0;
-        background: #2F303A;
+        background: #2F303A;  /* тимчасово? */
         text-align: center;
-        /* align-items: center; */
+       
 }
 .title-hero {
     color: var(--white-color);
         text-align: center;
         font-size: 44px;
-        /* font-family: Roboto; */
-        /* font-style: normal; */
         font-weight: 900;
         line-height: 136.364% ;
-        /**/
         letter-spacing: 2.64px;
         text-transform: uppercase;
+        /* font-family: Roboto; */
+        /* font-style: normal; */
 }
 
 /* sections */
@@ -165,8 +164,8 @@ letter-spacing: 0.48px;
     text-transform: uppercase;
 }
 .features p {
-    /* color: var(--gray-color); */
     line-height: 171.429%;
+    /* color: var(--gray-color); */
 }
 
 h2 {
