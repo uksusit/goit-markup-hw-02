@@ -69,9 +69,9 @@ footer .logo span {
 .header-cont {
 font-weight: 500;
 letter-spacing: 0.28px;
+color: var(--gray-color);
 /* font-family: Roboto;
 line-height: normal;
-color: #757575;
 font-size: 14px;
 font-style: normal;
  */
