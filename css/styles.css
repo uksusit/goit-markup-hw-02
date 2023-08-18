@@ -17,7 +17,7 @@ body {
     color: var(--gray-color);
         font-weight: 400;
         line-height: normal;
-        letter-spacing: 0.42px;
+        /* letter-spacing: 0.42px; */
 }
 ul {list-style: none;}
 a {
@@ -90,7 +90,11 @@ header li {display: inline-block;}
     
  }
 .site-nav a:hover,
- .site-nav a:focus {
+ .site-nav a:focus,
+ .site-nav a::selection {
+    color: var(--blue-color);
+}
+.site-nav .current {
     color: var(--blue-color);
 }
 
